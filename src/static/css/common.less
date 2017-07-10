@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+    }
+}
+//FlexBox 公用布局
+.Grid {
+    display: flex;
+}
+
+.Grid-cell {
+    padding:10px;
+    flex: 1;
+}
+
+.Grid-cell.u-full {
+    flex: 0 0 100%;
+}
+
+.Grid-cell.u-1of2 {
+    flex: 0 0 50%;
+}
+
+.Grid-cell.u-1of3 {
+    flex: 0 0 33.3333%;
+}
+
+.Grid-cell.u-1of4 {
+    flex: 0 0 25%;
+}
+
+.Grid-cell.u-1of7 {
+    flex: 0 0 70%;
+}
+
+.Grid-cell.u-1of15 {
+    flex: 0 0 15%;
+}
+
+/**
+字体颜色
+ */
+.fontWhite{
+    color:#fff
+}
+
+.fontBlack{
+    color: #000;
+}
+
+/**
+按钮样式
+ */
+.btnDelete{
+    color: #fff;
+    background-color: #108ee9;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.btnAdd {
+    width: 50px;
+    margin: 5px;
+}
+
+/**
+New Post
+ */
+
+.errorLabel {
+    color: red;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.errorInput textarea{
+    border: solid red 1px !important;
+}
+
+.errorInput input{
+    border: solid red 1px !important;
+}
+
+
+
+
