@@ -4,7 +4,7 @@
   "description": "The basic config for react project with redux",
   "main": "index.js",
   "scripts": {
-    "create": "webpack",
+    "build": "webpack -p",
     "start": "NODE_ENV=dev webpack-dev-server --progress --colors --open --port 8081",
     "mock": "node_modules/.bin/json-server --watch ./src/mock/mock.json --routes ./src/mock/routes.json --port 3000",
     "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot --history-api-fallback",
