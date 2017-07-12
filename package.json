@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
-    "start": "NODE_ENV=dev webpack-dev-server --progress --colors --open --port 8081 & node_modules/.bin/json-server --watch ./src/mock/mock.json --routes ./src/mock/routes.json --port 3000",
+    "start": "NODE_ENV=dev webpack-dev-server --progress --colors --open --port 8081 & json-server --watch ./src/mock/mock.json --routes ./src/mock/routes.json --port 3000",
     "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
