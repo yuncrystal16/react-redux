@@ -4,7 +4,7 @@
 
 import * as actionType from '../constants/posts';
 import { getRequest,postRequest,deleteRequest } from '../fetch/requests';
-import db from '../common/db'
+import db from '../db'
 
 const GET_POST_URL = db.getPosts;
 

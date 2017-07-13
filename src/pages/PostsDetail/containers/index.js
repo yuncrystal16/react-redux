@@ -2,7 +2,7 @@
  * Created by YUN on 30/6/17.
  */
 import React from 'react';
-import { fetchPost,deletePost } from '../../../actions/postActions';
+import { fetchPost,deletePost } from '../../../common/actions/postActions';
 import { connect } from 'react-redux';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import Header from '../../../pages/Header/components';

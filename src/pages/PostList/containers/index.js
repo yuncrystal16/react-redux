@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 
 //引入post 的所有 action
-import { fetchPosts } from '../../../actions/postActions';
+import { fetchPosts } from '../../../common/actions/postActions';
 import { bindActionCreators } from 'redux';
 import Header from '../../../pages/Header/components';
 //引入dump组件

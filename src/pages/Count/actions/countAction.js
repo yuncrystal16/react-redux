@@ -1,7 +1,7 @@
 /**
  * Created by YUN on 10/7/17.
  */
-import * as actionType from '../../../constants/count';
+import * as actionType from '../../../common/constants/count';
 
 function increaseCount () {
     return {

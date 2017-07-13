@@ -9,17 +9,17 @@ import { HashRouter as Router, Route,Switch} from 'react-router-dom';
 // 引入 redux
 import { Provider } from 'react-redux';
 import createHistory from 'history/createHashHistory'
-import configureStore from './store/configureStore'
+import configureStore from './src/common/store/configureStore'
 // 通用样式
-import './static/css/common.less';
-import './static/css/font.css';
+import './src/common/static/css/common.less';
+import './src/common/static/css/font.css';
 
 
 // import 也页面组件
-import HomePage from './pages/HomePage/containers';
-import PostList from './pages/PostList/containers';
-import PostsDetail from './pages/PostsDetail/containers';
-import Count from './pages/Count/containers';
+import HomePage from './src/pages/HomePage/containers';
+import PostList from './src/pages/PostList/containers';
+import PostsDetail from './src/pages/PostsDetail/containers';
+import Count from './src/pages/Count/containers';
 
 
 const store = configureStore();

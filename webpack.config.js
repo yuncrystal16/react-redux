@@ -9,7 +9,7 @@ const svgDirs = [
 ];
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './index.js',
     output: {
         path: path.resolve(__dirname, './build'),
         filename: 'bundle.js',
@@ -55,7 +55,7 @@ module.exports = {
         extensions: ['.web.js', '.js', '.json'],
     },
     plugins: [
-        new HtmlWebpackPlugin({template: 'src/index.html'}),
+        new HtmlWebpackPlugin({template: './index.html'}),
         new webpack.DefinePlugin({
             __DEV__: JSON.stringify(JSON.parse((process.env.NODE_ENV == 'dev') || 'false'))
         })
